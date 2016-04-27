@@ -39,7 +39,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -57,9 +59,9 @@
     <None Include="Web.AppSettings.backupMNLNapInternal.config">
       <DependentUpon>Web.AppSettings.config</DependentUpon>
     </None>
-    <None Include="Web.AppSettings.config">
+    <Content Include="Web.AppSettings.config">
       <SubType>Designer</SubType>
-    </None>
+    </Content>
     <None Include="Web.AppSettings.local.config">
       <DependentUpon>Web.AppSettings.config</DependentUpon>
       <SubType>Designer</SubType>
@@ -109,7 +111,9 @@
     <None Include="Web.ConnectionStrings.backupMNLNapInternal.config">
       <DependentUpon>Web.ConnectionStrings.config</DependentUpon>
     </None>
-    <None Include="Web.ConnectionStrings.config" />
+    <Content Include="Web.ConnectionStrings.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Web.ConnectionStrings.local.config">
       <DependentUpon>Web.ConnectionStrings.config</DependentUpon>
     </None>
