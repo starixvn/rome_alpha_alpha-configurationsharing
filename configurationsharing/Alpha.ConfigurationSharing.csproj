@@ -169,6 +169,15 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.AppSettings.automation.config">
+      <DependentUpon>Web.AppSettings.config</DependentUpon>
+    </None>
+    <None Include="Web.sit.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
