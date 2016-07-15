@@ -5,6 +5,24 @@
     [TestFixture]
     public class UATI7ConfigurationTests : ConfigurationByEnvironmentTests
     {
+        // We must use this property because NUnit can't load ExpectedAppSettings from base class
+        public static string[] ExpectedAppSettingsChild
+        {
+            get
+            {
+                return ExpectedAppSettings;
+            }
+        }
+
+        // We must use this property because NUnit can't load ExpectedConnectionsStrings from base class
+        public static string[] ExpectedConnectionsStringsChild
+        {
+            get
+            {
+                return ExpectedConnectionsStrings;
+            }
+        }
+
         [TestFixtureSetUp]
         public override void TestFixtureSetUp()
         {
@@ -19,7 +37,7 @@
             base.ValidateAppSettings_LoadedAppSettings_ReturnCorrectItemLength();
         }
 
-        [Test, TestCaseSource("ExpectedAppSettings")]
+        [Test, TestCaseSource("ExpectedAppSettingsChild")]
         public override void ValidateAppSettings_SupportKeyName_ReturnData(string keyName)
         {
             base.ValidateAppSettings_SupportKeyName_ReturnData(keyName);
@@ -31,7 +49,7 @@
             base.ValidateConnectionStrings_LoadedConnectionStrings_ReturnCorrectItemLength();
         }
 
-        [Test, TestCaseSource("ExpectedConnectionsStrings")]
+        [Test, TestCaseSource("ExpectedConnectionsStringsChild")]
         public override void ValidateConnectionStrings_SupportConnectionName_ReturnData(string connectionName)
         {
             base.ValidateConnectionStrings_SupportConnectionName_ReturnData(connectionName);

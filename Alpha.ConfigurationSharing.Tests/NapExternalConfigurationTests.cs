@@ -5,6 +5,15 @@
     [TestFixture]
     public class NapExternalConfigurationTests : ConfigurationByEnvironmentTests
     {
+        // We must use this property because NUnit can't load ExpectedAppSettings from base class
+        public static string[] ExpectedAppSettingsChild
+        {
+            get
+            {
+                return ExpectedAppSettings;
+            }
+        }
+
         [TestFixtureSetUp]
         public override void TestFixtureSetUp()
         {
@@ -19,7 +28,7 @@
             base.ValidateAppSettings_LoadedAppSettings_ReturnCorrectItemLength();
         }
 
-        [Test, TestCaseSource("ExpectedAppSettings")]
+        [Test, TestCaseSource("ExpectedAppSettingsChild")]
         public override void ValidateAppSettings_SupportKeyName_ReturnData(string keyName)
         {
             base.ValidateAppSettings_SupportKeyName_ReturnData(keyName);
