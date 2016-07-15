@@ -53,7 +53,10 @@
                     "PiwikSiteId",
                     "PiwikScript",
                     "ApplicationName",
-                    "aspnet:MaxJsonDeserializerMembers"
+                    "aspnet:MaxJsonDeserializerMembers",
+                    "ResultSiteVirtualPath",
+                    "TotalbetsForecastSiteVirtualPath",
+                    "AppMainName"
                  };
             }
         }
