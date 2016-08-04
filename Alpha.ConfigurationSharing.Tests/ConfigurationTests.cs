@@ -52,7 +52,7 @@
 
         [TestCase("")]
         [TestCase("Web.AppSettings.local1.config")]
-        public void LoadAppSettings_NotExistFile_ReturnNotNullConfiguration(string fileName)
+        public void LoadAppSettings_NotExistFile_ThrowsFileNotFoundException(string fileName)
         {
             // Arrange 
             var appSettingPath = baseDirectory + fileName;
