@@ -235,6 +235,7 @@
     <Content Include="..\Alpha.ConfigurationSharing\Web.uati1.config">
       <Link>Web.uati1.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <None Include="packages.config">
       <SubType>Designer</SubType>
