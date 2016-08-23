@@ -56,6 +56,8 @@
                     "aspnet:MaxJsonDeserializerMembers",
                     "ResultSiteVirtualPath",
                     "TotalbetsForecastSiteVirtualPath",
+                    "AssetAppPath",
+                    "OldMainAppPath",
                     "AppMainName"
                  };
             }

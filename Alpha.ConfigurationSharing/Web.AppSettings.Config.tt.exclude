@@ -55,6 +55,8 @@
 
   <add key="ResultSiteVirtualPath" value="/site-results" />
   <add key="TotalbetsForecastSiteVirtualPath" value="/site-totalbetsforecast" />
+  <add key="AssetAppPath" value="/assets" />
+  <add key="OldMainAppPath" value="/ex-main" />
   <add key="AppMainName" value="site-main" />
 </appSettings><#
     }
