@@ -1,8 +1,6 @@
 
 /.vs
-/configurationsharing/bin
-/configurationsharing/obj
-/Alpha.ConfigurationSharing.Tests/bin
-/Alpha.ConfigurationSharing.Tests/obj
+/*/bin
+/*/obj
 /packages
 StyleCop.Cache
