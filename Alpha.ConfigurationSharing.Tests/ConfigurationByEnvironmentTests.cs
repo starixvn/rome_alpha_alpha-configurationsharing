@@ -54,11 +54,22 @@
                     "PiwikScript",
                     "ApplicationName",
                     "aspnet:MaxJsonDeserializerMembers",
+
                     "ResultSiteVirtualPath",
                     "TotalbetsForecastSiteVirtualPath",
                     "AssetAppPath",
                     "OldMainAppPath",
-                    "AppMainName"
+                    "HowToUseAppPath",
+                    "AppMainName",
+
+                    "Disable151_41",
+                    "Disable151_51",
+                    "Disable152_41",
+                    "Disable152_51",
+                    "Disable153_51",
+
+                    "EnableSecurityVerify",
+                    "DeadlineEnableSecurity"
                  };
             }
         }

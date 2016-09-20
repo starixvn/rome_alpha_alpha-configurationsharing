@@ -131,10 +131,12 @@
     <Content Include="..\Alpha.ConfigurationSharing\Web.AppSettings.config">
       <Link>Web.AppSettings.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="..\Alpha.ConfigurationSharing\Web.AppSettings.local.config">
       <Link>Web.AppSettings.local.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="..\Alpha.ConfigurationSharing\Web.AppSettings.napexternal.config">
       <Link>Web.AppSettings.napexternal.config</Link>
