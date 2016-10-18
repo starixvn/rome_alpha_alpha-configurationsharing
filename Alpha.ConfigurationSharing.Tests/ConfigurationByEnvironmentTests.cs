@@ -61,6 +61,7 @@
                     "OldMainAppPath",
                     "HowToUseAppPath",
                     "AppMainName",
+                    "MainAppPath",
 
                     "Disable151_41",
                     "Disable151_51",
@@ -69,7 +70,8 @@
                     "Disable153_51",
 
                     "EnableSecurityVerify",
-                    "DeadlineEnableSecurity"
+                    "DeadlineEnableSecurity",
+                    "DisabledCasino"
                  };
             }
         }
