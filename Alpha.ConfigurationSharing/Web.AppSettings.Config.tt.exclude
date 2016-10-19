@@ -60,6 +60,8 @@
   <add key="AppMainName" value="site-main" />
 </appSettings><#
     }
+  <add key="ReportsAppPath" value="/site-reports" />
 
     manager.Process();
 #>
+  <add key="AccessDeniedPage" value="AccessDenied.aspx"/>

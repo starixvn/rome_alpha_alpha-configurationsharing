@@ -64,6 +64,7 @@
                     "AppMainName",
                     "MainAppPath",
                     "NG2SiteVirtualPath",
+                    "ReportsAppPath",
 
                     "Disable151_41",
                     "Disable151_51",
@@ -74,7 +75,8 @@
                     "EnableSecurityVerify",
                     "DeadlineEnableSecurity",
                     "DisabledCasino",
-                    "LoggingServiceUrl"
+                    "LoggingServiceUrl",
+                    "AccessDeniedPage"
                  };
             }
         }
