@@ -71,7 +71,8 @@
 
                     "EnableSecurityVerify",
                     "DeadlineEnableSecurity",
-                    "DisabledCasino"
+                    "DisabledCasino",
+                    "LoggingServiceUrl"
                  };
             }
         }
