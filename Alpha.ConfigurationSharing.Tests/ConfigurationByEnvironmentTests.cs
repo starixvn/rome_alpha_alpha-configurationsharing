@@ -45,6 +45,7 @@
                     "EnableProduct-21",
                     "EnableProduct-22",
                     "EnableProduct-23",
+                    "EnableProduct-24",
                     "RemoteRefURL_Msg",
                     "RemoteRefURL",
                     "RemoteCacheUrl",
