@@ -133,11 +133,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="..\Alpha.ConfigurationSharing\Web.AppSettings.local.config">
-      <Link>Web.AppSettings.local.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <SubType>Designer</SubType>
-    </Content>
     <Content Include="..\Alpha.ConfigurationSharing\Web.AppSettings.napexternal.config">
       <Link>Web.AppSettings.napexternal.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -190,10 +185,6 @@
       <Link>Web.ConnectionStrings.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.local.config">
-      <Link>Web.ConnectionStrings.local.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.napexternal.config">
       <Link>Web.ConnectionStrings.napexternal.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -212,10 +203,6 @@
     </Content>
     <Content Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.uati1.config">
       <Link>Web.ConnectionStrings.uati1.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\Alpha.ConfigurationSharing\Web.local.config">
-      <Link>Web.local.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="..\Alpha.ConfigurationSharing\Web.napexternal.config">
