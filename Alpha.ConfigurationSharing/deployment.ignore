@@ -1,7 +1,4 @@
 ﻿\\*.automation.config
-\\*.backupMNLExNapInternal.config
-\\*.backupMNLI1.config
-\\*.backupMNLNapInternal.config
 \\*.local.config
 \\*.napexternal.config
 \\*.napinternal.config
