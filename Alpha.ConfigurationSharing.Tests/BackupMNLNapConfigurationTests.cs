@@ -3,7 +3,7 @@
     using NUnit.Framework;
 
     [TestFixture]
-    public class BackupMNLNapInternalConfigurationTests : ConfigurationByEnvironmentTests
+    public class BackupMNLNapConfigurationTests : ConfigurationByEnvironmentTests
     {
         // We must use this property because NUnit can't load ExpectedAppSettings from base class
         public static string[] ExpectedAppSettingsChild
@@ -17,8 +17,8 @@
         [TestFixtureSetUp]
         public override void TestFixtureSetUp()
         {
-            RelativeAppSettingsAndConnectionStringTestPath = "AppSettingsAndConnectionStringTest.backupMNLNapInternal.config";
-            WebConfigRelativePath = "Web.backupMNLNapInternal.config";
+            RelativeAppSettingsAndConnectionStringTestPath = "AppSettingsAndConnectionStringTest.backupMNLNap.config";
+            WebConfigRelativePath = "Web.backupMNLNap.config";
             base.TestFixtureSetUp();
         }
 

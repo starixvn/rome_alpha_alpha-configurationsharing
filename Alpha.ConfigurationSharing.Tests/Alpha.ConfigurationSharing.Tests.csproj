@@ -45,9 +45,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BackupMNLExNapInternalConfigurationTests.cs" />
+    <Compile Include="BackupMNLExNapConfigurationTests.cs" />
     <Compile Include="BackupMNLI1ConfigurationTests.cs" />
-    <Compile Include="BackupMNLNapInternalConfigurationTests.cs" />
+    <Compile Include="BackupMNLNapConfigurationTests.cs" />
     <Compile Include="ConfigurationLoader.cs" />
     <Compile Include="ConfigurationTests.cs" />
     <Compile Include="ConfigurationByEnvironmentTests.cs" />
@@ -66,10 +66,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="AppSettingsAndConnectionStringTest.backupMNLI7.config">
-      <DependentUpon>AppSettingsAndConnectionStringTest.config</DependentUpon>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="AppSettingsAndConnectionStringTest.backupMNLNapInternal.config">
       <DependentUpon>AppSettingsAndConnectionStringTest.config</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -108,24 +104,20 @@
       <DependentUpon>AppSettingsAndConnectionStringTest.config</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="AppSettingsAndConnectionStringTest.backupMNLExNapInternal.config">
-      <DependentUpon>AppSettingsAndConnectionStringTest.config</DependentUpon>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="..\Alpha.ConfigurationSharing\Web.AppSettings.automation.config">
       <Link>Web.AppSettings.automation.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\Alpha.ConfigurationSharing\Web.AppSettings.backupMNLExNapInternal.config">
-      <Link>Web.AppSettings.backupMNLExNapInternal.config</Link>
+    <Content Include="..\Alpha.ConfigurationSharing\Web.AppSettings.backupMNLExNap.config">
+      <Link>Web.AppSettings.backupMNLExNap.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="..\Alpha.ConfigurationSharing\Web.AppSettings.backupMNLI1.config">
       <Link>Web.AppSettings.backupMNLI1.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\Alpha.ConfigurationSharing\Web.AppSettings.backupMNLNapInternal.config">
-      <Link>Web.AppSettings.backupMNLNapInternal.config</Link>
+    <Content Include="..\Alpha.ConfigurationSharing\Web.AppSettings.backupMNLNap.config">
+      <Link>Web.AppSettings.backupMNLNap.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="..\Alpha.ConfigurationSharing\Web.AppSettings.config">
@@ -153,32 +145,32 @@
       <Link>Web.AppSettings.uati1.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\Alpha.ConfigurationSharing\Web.backupMNLExNapInternal.config">
-      <Link>Web.backupMNLExNapInternal.config</Link>
+    <Content Include="..\Alpha.ConfigurationSharing\Web.backupMNLExNap.config">
+      <Link>Web.backupMNLExNap.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="..\Alpha.ConfigurationSharing\Web.backupMNLI1.config">
       <Link>Web.backupMNLI1.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\Alpha.ConfigurationSharing\Web.backupMNLNapInternal.config">
-      <Link>Web.backupMNLNapInternal.config</Link>
+    <Content Include="..\Alpha.ConfigurationSharing\Web.backupMNLNap.config">
+      <Link>Web.backupMNLNap.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="..\Alpha.ConfigurationSharing\Web.config">
       <Link>Web.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.backupMNLExNapInternal.config">
-      <Link>Web.ConnectionStrings.backupMNLExNapInternal.config</Link>
+    <Content Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.backupMNLExNap.config">
+      <Link>Web.ConnectionStrings.backupMNLExNap.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.backupMNLI1.config">
       <Link>Web.ConnectionStrings.backupMNLI1.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.backupMNLNapInternal.config">
-      <Link>Web.ConnectionStrings.backupMNLNapInternal.config</Link>
+    <Content Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.backupMNLNap.config">
+      <Link>Web.ConnectionStrings.backupMNLNap.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.config">
@@ -225,6 +217,12 @@
       <Link>Web.uati1.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
+    </Content>
+    <Content Include="AppSettingsAndConnectionStringTest.backupMNLExNap.config">
+      <DependentUpon>AppSettingsAndConnectionStringTest.config</DependentUpon>
+    </Content>
+    <Content Include="AppSettingsAndConnectionStringTest.backupMNLNap.config">
+      <DependentUpon>AppSettingsAndConnectionStringTest.config</DependentUpon>
     </Content>
     <None Include="packages.config">
       <SubType>Designer</SubType>
