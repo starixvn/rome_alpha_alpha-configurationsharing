@@ -14,7 +14,7 @@
             }
         }
 
-        [TestFixtureSetUp]
+        [OneTimeSetUp]
         public override void TestFixtureSetUp()
         {
             RelativeAppSettingsAndConnectionStringTestPath = "AppSettingsAndConnectionStringTest.napinternal.config";

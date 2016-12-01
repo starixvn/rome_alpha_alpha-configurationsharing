@@ -52,7 +52,6 @@
     <Compile Include="ConfigurationTests.cs" />
     <Compile Include="ConfigurationByEnvironmentTests.cs" />
     <Compile Include="RealConfigurationTests.cs" />
-    <Compile Include="LocalConfigurationTests.cs" />
     <Compile Include="NapExternalConfigurationTests.cs" />
     <Compile Include="NapInternalConfigurationTests.cs" />
     <Compile Include="ProI1ConfigurationTests.cs" />
@@ -220,9 +219,11 @@
     </Content>
     <Content Include="AppSettingsAndConnectionStringTest.backupMNLExNap.config">
       <DependentUpon>AppSettingsAndConnectionStringTest.config</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="AppSettingsAndConnectionStringTest.backupMNLNap.config">
       <DependentUpon>AppSettingsAndConnectionStringTest.config</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="packages.config">
       <SubType>Designer</SubType>

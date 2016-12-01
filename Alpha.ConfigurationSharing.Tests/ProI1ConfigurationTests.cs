@@ -23,7 +23,7 @@
             }
         }
 
-        [TestFixtureSetUp]
+        [OneTimeSetUp]
         public override void TestFixtureSetUp()
         {
             RelativeAppSettingsAndConnectionStringTestPath = "AppSettingsAndConnectionStringTest.proi1.config";
