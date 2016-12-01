@@ -19,9 +19,9 @@
         }
 
         [TestCase("Web.config")]
-        [TestCase("Web.backupMNLExNapInternal.config")]
+        [TestCase("Web.backupMNLExNap.config")]
         [TestCase("Web.backupMNLI1.config")]
-        [TestCase("Web.backupMNLNapInternal.config")]
+        [TestCase("Web.backupMNLNap.config")]
         [TestCase("Web.local.config")]
         [TestCase("Web.napexternal.config")]
         [TestCase("Web.napinternal.config")]
@@ -29,9 +29,9 @@
         [TestCase("Web.sit.config")]
         [TestCase("Web.uati1.config")]
         [TestCase("AppSettingsAndConnectionStringTest.config")]
-        [TestCase("AppSettingsAndConnectionStringTest.backupMNLExNapInternal.config")]
+        [TestCase("AppSettingsAndConnectionStringTest.backupMNLExNap.config")]
         [TestCase("AppSettingsAndConnectionStringTest.backupMNLI1.config")]
-        [TestCase("AppSettingsAndConnectionStringTest.backupMNLNapInternal.config")]
+        [TestCase("AppSettingsAndConnectionStringTest.backupMNLNap.config")]
         [TestCase("AppSettingsAndConnectionStringTest.local.config")]
         [TestCase("AppSettingsAndConnectionStringTest.napexternal.config")]
         [TestCase("AppSettingsAndConnectionStringTest.napinternal.config")]
