@@ -61,7 +61,6 @@
                     "AssetAppPath",
                     "OldMainAppPath",
                     "HowToUseAppPath",
-                    "AppMainName",
                     "MainAppPath",
                     "NG2SiteVirtualPath",
                     "ReportsAppPath",
