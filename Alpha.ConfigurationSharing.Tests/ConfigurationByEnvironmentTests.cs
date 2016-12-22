@@ -129,6 +129,11 @@
             NumberOfConnectionsStrings = ExpectedConnectionsStrings.Length;
 
             BaseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            if (!BaseDirectory.EndsWith("\\"))
+            {
+                BaseDirectory += "\\";
+            }
+
             var configurationLoader = new ConfigurationLoader();
 
             var settingPath = BaseDirectory + RelativeAppSettingsAndConnectionStringTestPath;

@@ -15,6 +15,11 @@
         public void SetUp()
         {
             baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            if (!baseDirectory.EndsWith("\\"))
+            {
+                baseDirectory += "\\";
+            }
+
             configurationLoader = new ConfigurationLoader();
         }
 
