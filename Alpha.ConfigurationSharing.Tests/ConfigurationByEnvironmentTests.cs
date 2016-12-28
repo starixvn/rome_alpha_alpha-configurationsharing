@@ -76,7 +76,8 @@
                     "DeadlineEnableSecurity",
                     "DisabledCasino",
                     "LoggingServiceUrl",
-                    "AccessDeniedPage"
+                    "AccessDeniedPage",
+                    "AssetsApp:StaticResourcesVersion"
                  };
             }
         }
