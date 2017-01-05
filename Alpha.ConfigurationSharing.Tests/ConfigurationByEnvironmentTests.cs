@@ -1,9 +1,9 @@
 ﻿namespace Alpha.ConfigurationSharing.Tests
 {
-    using NUnit.Framework;
     using System;
     using System.Collections.Generic;
     using System.Configuration;
+    using NUnit.Framework;
 
     [TestFixture]
     public class ConfigurationByEnvironmentTests
@@ -77,7 +77,8 @@
                     "DisabledCasino",
                     "LoggingServiceUrl",
                     "AccessDeniedPage",
-                    "AssetsApp:StaticResourcesVersion"
+                    "AssetsApp:StaticResourcesVersion",
+                    "DisabledCheckDuplicationLogin"
                  };
             }
         }
