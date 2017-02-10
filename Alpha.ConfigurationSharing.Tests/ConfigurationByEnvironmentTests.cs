@@ -66,11 +66,11 @@
             AppSettingsAndConnectionStringConfiguration = LoadSetting(RelativeAppSettingsAndConnectionStringTestPath);
         }
 
-        public virtual void ValidateAppSettings_LoadedAppSettings_ReturnCorrectItemLength()
-        {
-            // Assert
-            Assert.AreEqual(NumberOfAppSettings, AppSettingsAndConnectionStringConfiguration.AppSettings.Settings.Count);
-        }
+        //public virtual void ValidateAppSettings_LoadedAppSettings_ReturnCorrectItemLength()
+        //{
+        //    // Assert
+        //    Assert.AreEqual(NumberOfAppSettings, AppSettingsAndConnectionStringConfiguration.AppSettings.Settings.Count);
+        //}
 
         public virtual void ValidateAppSettings_SupportKeyName_ReturnData(string keyName)
         {

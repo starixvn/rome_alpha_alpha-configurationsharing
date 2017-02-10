@@ -31,11 +31,11 @@
             base.TestFixtureSetUp();
         }
 
-        [Test]
-        public override void ValidateAppSettings_LoadedAppSettings_ReturnCorrectItemLength()
-        {
-            base.ValidateAppSettings_LoadedAppSettings_ReturnCorrectItemLength();
-        }
+        //[Test]
+        //public override void ValidateAppSettings_LoadedAppSettings_ReturnCorrectItemLength()
+        //{
+        //    base.ValidateAppSettings_LoadedAppSettings_ReturnCorrectItemLength();
+        //}
 
         [Test, TestCaseSource("ExpectedAppSettingsChild")]
         public override void ValidateAppSettings_SupportKeyName_ReturnData(string keyName)
