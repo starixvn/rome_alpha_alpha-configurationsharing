@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BackupMNLExNap2ConfigurationTests.cs" />
     <Compile Include="BackupMNLExNapConfigurationTests.cs" />
     <Compile Include="BackupMNLI1ConfigurationTests.cs" />
     <Compile Include="BackupMNLNapConfigurationTests.cs" />
@@ -225,6 +226,114 @@
       <DependentUpon>AppSettingsAndConnectionStringTest.config</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="..\Alpha.ConfigurationSharing\Web.AppSettings.backupMNLExNapI2.config">
+      <Link>Web.AppSettings.backupMNLExNapI2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Alpha.ConfigurationSharing\Web.AppSettings.backupMNLI2.config">
+      <Link>Web.AppSettings.backupMNLI2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Alpha.ConfigurationSharing\Web.AppSettings.backupMNLNapI2.config">
+      <Link>Web.AppSettings.backupMNLNapI2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Alpha.ConfigurationSharing\Web.AppSettings.locali2.config">
+      <Link>Web.AppSettings.locali2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Alpha.ConfigurationSharing\Web.AppSettings.napexternali2.config">
+      <Link>Web.AppSettings.napexternali2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Alpha.ConfigurationSharing\Web.AppSettings.napinternali2.config">
+      <Link>Web.AppSettings.napinternali2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Alpha.ConfigurationSharing\Web.AppSettings.proi2.config">
+      <Link>Web.AppSettings.proi2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Alpha.ConfigurationSharing\Web.AppSettings.siti2.config">
+      <Link>Web.AppSettings.siti2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Alpha.ConfigurationSharing\Web.AppSettings.uati2.config">
+      <Link>Web.AppSettings.uati2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Alpha.ConfigurationSharing\Web.backupMNLExNapI2.config">
+      <Link>Web.backupMNLExNapI2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Alpha.ConfigurationSharing\Web.backupMNLI2.config">
+      <Link>Web.backupMNLI2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Alpha.ConfigurationSharing\Web.backupMNLNapI2.config">
+      <Link>Web.backupMNLNapI2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.backupMNLExNapI2.config">
+      <Link>Web.ConnectionStrings.backupMNLExNapI2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.backupMNLI2.config">
+      <Link>Web.ConnectionStrings.backupMNLI2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.backupMNLNapI2.config">
+      <Link>Web.ConnectionStrings.backupMNLNapI2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.locali2.config">
+      <Link>Web.ConnectionStrings.locali2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.napexternali2.config">
+      <Link>Web.ConnectionStrings.napexternali2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.napinternali2.config">
+      <Link>Web.ConnectionStrings.napinternali2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.proi2.config">
+      <Link>Web.ConnectionStrings.proi2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.siti2.config">
+      <Link>Web.ConnectionStrings.siti2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.uati2.config">
+      <Link>Web.ConnectionStrings.uati2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Alpha.ConfigurationSharing\Web.locali2.config">
+      <Link>Web.locali2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Alpha.ConfigurationSharing\Web.napexternali2.config">
+      <Link>Web.napexternali2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Alpha.ConfigurationSharing\Web.napinternali2.config">
+      <Link>Web.napinternali2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Alpha.ConfigurationSharing\Web.proi2.config">
+      <Link>Web.proi2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Alpha.ConfigurationSharing\Web.siti2.config">
+      <Link>Web.siti2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Alpha.ConfigurationSharing\Web.uati2.config">
+      <Link>Web.uati2.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
