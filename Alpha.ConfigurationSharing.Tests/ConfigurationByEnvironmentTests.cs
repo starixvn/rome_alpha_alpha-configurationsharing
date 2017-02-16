@@ -12,74 +12,7 @@
         {
             get
             {
-                return new string[]
-                 {
-                    "webpages:Version",
-                    "vs:EnableBrowserLink",
-                    "EnableNumberGroup",
-                    "Disabled_NumberGame",
-                    "Disabled_NumberCommission",
-                    "Disabled_BingoCommission",
-                    "Disabled_BingoMaxTransfer",
-                    "Disabled_BingoStatus",
-                    "Disabled_NumberGameStatus",
-                    "EnableP2P",
-                    "EnableLiveCasino",
-                    "EnableVirtualSports",
-                    "EnableKeno",
-                    "EnableHRFixedOdds",
-                    "EnableBingo",
-                    "EnableDoubleCommission",
-                    "EnableSessionValidatingService",
-                    "EnableMemberWinLimit",
-                    "Disable151_31",
-                    "DisabledFI",
-                    "IsShowTennisOtherBettype",
-                    "IsAllowUpdateESportsStatus",
-                    "IsShowGoldDeluxeSettingForCredit",
-                    "IsShowMyanmarOdds",
-                    "IsShowSportsbook2",
-                    "IsShowColossusBets",
-                    "EnableProduct-19",
-                    "EnableProduct-20",
-                    "EnableProduct-21",
-                    "EnableProduct-22",
-                    "EnableProduct-23",
-                    "EnableProduct-24",
-                    "RemoteRefURL_Msg",
-                    "RemoteRefURL",
-                    "RemoteCacheUrl",
-                    "IsNeutralSite",
-                    "LocalTest",
-                    "PiwikSiteId",
-                    "PiwikUrl",
-                    "PiwikScript",
-                    "ApplicationName",
-                    "aspnet:MaxJsonDeserializerMembers",
-
-                    "ResultSiteVirtualPath",
-                    "TotalbetsForecastSiteVirtualPath",
-                    "AssetAppPath",
-                    "OldMainAppPath",
-                    "HowToUseAppPath",
-                    "MainAppPath",
-                    "NG2SiteVirtualPath",
-                    "ReportsAppPath",
-
-                    "Disable151_41",
-                    "Disable151_51",
-                    "Disable152_41",
-                    "Disable152_51",
-                    "Disable153_51",
-
-                    "EnableSecurityVerify",
-                    "DeadlineEnableSecurity",
-                    "DisabledCasino",
-                    "LoggingServiceUrl",
-                    "AccessDeniedPage",
-                    "AssetsApp:StaticResourcesVersion",
-                    "DisabledCheckDuplicationLogin"
-                 };
+                return GetLocalAppSettings();
             }
         }
 
@@ -114,11 +47,11 @@
             }
         }
 
+        public static string BaseDirectory { get; set; }
+
         public int NumberOfAppSettings { get; set; }
 
         public int NumberOfConnectionsStrings { get; set; }
-
-        public string BaseDirectory { get; set; }
 
         public string WebConfigRelativePath { get; set; }
 
@@ -130,17 +63,7 @@
         {
             NumberOfAppSettings = ExpectedAppSettings.Length;
             NumberOfConnectionsStrings = ExpectedConnectionsStrings.Length;
-
-            BaseDirectory = AppDomain.CurrentDomain.BaseDirectory;
-            if (!BaseDirectory.EndsWith("\\"))
-            {
-                BaseDirectory += "\\";
-            }
-
-            var configurationLoader = new ConfigurationLoader();
-
-            var settingPath = BaseDirectory + RelativeAppSettingsAndConnectionStringTestPath;
-            AppSettingsAndConnectionStringConfiguration = configurationLoader.LoadConfigurations(settingPath);
+            AppSettingsAndConnectionStringConfiguration = LoadSetting(RelativeAppSettingsAndConnectionStringTestPath);
         }
 
         public virtual void ValidateAppSettings_LoadedAppSettings_ReturnCorrectItemLength()
@@ -193,6 +116,34 @@
 
             // Assert
             Assert.IsTrue(containEnoughSections);
+        }
+
+        public static string[] GetLocalAppSettings()
+        {
+            var settings = LoadSetting("AppSettingsAndConnectionStringTest.config").AppSettings.Settings;
+
+            var result = new List<string>();
+
+            foreach (KeyValueConfigurationElement setting in settings)
+            {
+                result.Add(setting.Key);
+            }
+
+            return result.ToArray();
+        }
+
+        private static Configuration LoadSetting(string relativeAppSettingsAndConnectionStringTestPath)
+        {
+            BaseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            if (!BaseDirectory.EndsWith("\\"))
+            {
+                BaseDirectory += "\\";
+            }
+
+            var configurationLoader = new ConfigurationLoader();
+
+            var settingPath = BaseDirectory + relativeAppSettingsAndConnectionStringTestPath;
+            return configurationLoader.LoadConfigurations(settingPath);
         }
     }
 }
