@@ -11,7 +11,7 @@
 @set PATH=%PATH%;C:\Program Files (x86)\Git\bin;C:\Program Files\Git\bin
 @set microSiteSources=%currentFolder%
 
-@set isCloneCode=0
+@set isCloneCode=1
 @set isUpdateCode=1
 @set isBuildCode=1
 @set isArrangeIIS=1
