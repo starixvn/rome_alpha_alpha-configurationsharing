@@ -11,11 +11,10 @@
 @set PATH=%PATH%;C:\Program Files (x86)\Git\bin;C:\Program Files\Git\bin
 @set microSiteSources=%currentFolder%
 
-@set isCloneCode=1
-@set isUpdateCode=1
+@set isCloneCode=0
+@set isUpdateCode=0
 @set isBuildCode=1
-@set isArrangeIIS=1
-
+@set isArrangeIIS=0
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 @echo off
@@ -62,6 +61,7 @@
 @set gitCode[8]=git@gitlab.nexcel.vn:fanex-alpha/alpha-userguide.git
 @set gitCode[9]=git@gitlab.nexcel.vn:fanex-alpha/alpha-reports.git
 @set gitCode[10]=git@gitlab.nexcel.vn:fanex-alpha/alpha-modules.git
+@set gitCode[11]=git@gitlab.nexcel.vn:fanex-alpha/alpha-extotalbetsforecast.git
 
 @set sourceCodes[0]=after-login-website
 @set sourceCodes[1]=alpha-newmain
@@ -74,7 +74,7 @@
 @set sourceCodes[8]=alpha-userguide
 @set sourceCodes[9]=alpha-reports
 @set sourceCodes[10]=alpha-modules
-
+@set sourceCodes[11]=alpha-extotalbetsforecast
 
 @set sourceCodeFolder=%microSiteSources%
 @cd !sourceCodeFolder!
@@ -106,6 +106,7 @@
 @set sourceCodes[8]=alpha-userguide
 @set sourceCodes[9]=alpha-reports
 @set sourceCodes[10]=alpha-modules
+@set sourceCodes[11]=alpha-extotalbetsforecast
 
 @set sourceCodeFolder=%microSiteSources%
 @cd !sourceCodeFolder!
@@ -138,6 +139,7 @@
 @set sourceCodes[8]=alpha-userguide
 @set sourceCodes[9]=alpha-reports
 @set sourceCodes[10]=alpha-modules
+@set sourceCodes[11]=alpha-ex-totalbetsforecast
 
 @set sourceCodeFolder=%microSiteSources%
 @set builCodeTaskDev=build.cmd
@@ -239,6 +241,7 @@
 @set webApplications[5]=%appPrefix%-howtouse
 @set webApplications[6]=%appPrefix%-betlists
 @set webApplications[7]=%appPrefix%-reports
+@set webApplications[8]=%appPrefix%-ex-totalbetsforecast
 
 @set webApplicationFolders[0]=alpha-newmain\Alpha.Main.Site\Alpha.Main.Site
 @set webApplicationFolders[1]=after-login-website\Fanex_Razorbill_Website
@@ -248,6 +251,7 @@
 @set webApplicationFolders[5]=alpha-howtouse\Alpha.HowToUse
 @set webApplicationFolders[6]=alpha-betlists\src\Alpha.BetLists.Site
 @set webApplicationFolders[7]=alpha-reports\src\Alpha.Reports.Site
+@set webApplicationFolders[8]=alpha-ex-totalbetsforecast\Alpha.Ex.TotalBetsForecast.Site
 
 @REM Get Web Applications Length
 @set maxIndex=-1
