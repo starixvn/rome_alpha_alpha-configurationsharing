@@ -139,7 +139,7 @@
 @set sourceCodes[8]=alpha-userguide
 @set sourceCodes[9]=alpha-reports
 @set sourceCodes[10]=alpha-modules
-@set sourceCodes[11]=alpha-ex-totalbetsforecast
+@set sourceCodes[11]=alpha-extotalbetsforecast
 
 @set sourceCodeFolder=%microSiteSources%
 @set builCodeTaskDev=build.cmd
@@ -241,7 +241,7 @@
 @set webApplications[5]=%appPrefix%-howtouse
 @set webApplications[6]=%appPrefix%-betlists
 @set webApplications[7]=%appPrefix%-reports
-@set webApplications[8]=%appPrefix%-ex-totalbetsforecast
+@set webApplications[8]=ex-totalbetsforecast
 
 @set webApplicationFolders[0]=alpha-newmain\Alpha.Main.Site\Alpha.Main.Site
 @set webApplicationFolders[1]=after-login-website\Fanex_Razorbill_Website
@@ -251,7 +251,7 @@
 @set webApplicationFolders[5]=alpha-howtouse\Alpha.HowToUse
 @set webApplicationFolders[6]=alpha-betlists\src\Alpha.BetLists.Site
 @set webApplicationFolders[7]=alpha-reports\src\Alpha.Reports.Site
-@set webApplicationFolders[8]=alpha-ex-totalbetsforecast\Alpha.Ex.TotalBetsForecast.Site
+@set webApplicationFolders[8]=alpha-extotalbetsforecast\Alpha.Ex.TotalBetsForecast.Site
 
 @REM Get Web Applications Length
 @set maxIndex=-1
