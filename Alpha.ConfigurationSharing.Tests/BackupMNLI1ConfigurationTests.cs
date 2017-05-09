@@ -26,8 +26,8 @@
         [OneTimeSetUp]
         public override void TestFixtureSetUp()
         {
-            RelativeAppSettingsAndConnectionStringTestPath = "AppSettingsAndConnectionStringTest.backupMNLI1.config";
-            WebConfigRelativePath = "Web.backupMNLI1.config";
+            RelativeAppSettingsAndConnectionStringTestPath = "AppSettingsAndConnectionStringTest.backupMNL.config";
+            WebConfigRelativePath = "Web.backupMNL.config";
             base.TestFixtureSetUp();
         }
 
