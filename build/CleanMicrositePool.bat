@@ -19,6 +19,7 @@
 @set "webApplications[4]=%appPrefix%-userguilde"
 @set "webApplications[5]=%appPrefix%-howtouse"
 @set "webApplications[6]=%appPrefix%-betlist"
+@set "webApplications[7]=ex-totalbetsforecast"
 
 @REM Get Web Applications Length
 @set maxIndex=-1
