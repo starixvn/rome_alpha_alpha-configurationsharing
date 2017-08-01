@@ -1,8 +1,29 @@
 ::Notes
+::1.Must have permission to view folder C:\Windows\System32\inetsrv\config
+::2.Error the w3svc service is not available: Run file batch as Administrator
+
+
+:: Configurations
+@set siteName=Alpha-Microsites3
+@set poolName=%siteName%
+
+:: Web Applications
+@set appPrefix=site
+@set webApplications[0]=%appPrefix%-main
+@set webApplications[1]=ex-main
+@set webApplications[2]=%appPrefix%-results
+@set webApplications[3]=%appPrefix%-totalbetsforecast
+@set webApplications[4]=%appPrefix%-userguilde
+@set webApplications[5]=%appPrefix%-howtouse
+@set webApplications[6]=%appPrefix%-betlist
+@set webApplications[7]=%appPrefix%-viewlogs
+@set webApplications[8]=%appPrefix%-memberinfo
+@set webApplications[9]=%appPrefix%-messages
+@set webApplications[10]=ex-totalbetsforecast
+@set webApplications[11]=%appPrefix%-reports
+
 
 @set appCMD=%systemroot%/system32/inetsrv/APPCMD
-@set siteName=Alpha-Microsites5
-@set poolName=%siteName%
 @set isRemoveMicrositeSources=0
 
 @echo off
@@ -11,15 +32,6 @@
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ::Remove Web Applications 
-@set appPrefix=site
-@set "webApplications[0]=%appPrefix%-main"
-@set "webApplications[1]=%appPrefix%-oldmain"
-@set "webApplications[2]=%appPrefix%-results"
-@set "webApplications[3]=%appPrefix%-totalbetsforecast"
-@set "webApplications[4]=%appPrefix%-userguilde"
-@set "webApplications[5]=%appPrefix%-howtouse"
-@set "webApplications[6]=%appPrefix%-betlist"
-@set "webApplications[7]=ex-totalbetsforecast"
 
 @REM Get Web Applications Length
 @set maxIndex=-1
