@@ -12,8 +12,8 @@
 @set currentFolder=%cd%
 @set microSiteSources=%currentFolder%
 
-@set isCloneCode=1
-@set isBuildCode=0
+@set isCloneCode=0
+@set isBuildCode=1
 @set isArrangeIIS=0
 
 
@@ -149,7 +149,10 @@
 @setlocal enableDelayedExpansion
 
 @set sourceCodeFolder=%microSiteSources%
-@set builCodeTask=BuildTask.Release.bat
+
+@set builCodeTasks[0]=build.cmd
+@set builCodeTasks[1]=build.bat
+@set builCodeTasks[2]=BuildTask.Release.bat
 
 @cd !sourceCodeFolder!
 
@@ -160,14 +163,17 @@
 
 @for /L %%i in (0,1,!maxIndex!) do (
 	@set solutionFolder=!solutionFolders[%%i]!
-	@set buildTaskPath=!sourceCodeFolder!\!solutionFolder!\!builCodeTask!
 	
 	@if exist !sourceCodeFolder!\!solutionFolder! (
 		@cd !sourceCodeFolder!\!solutionFolder!
 	)
 	
-	@if exist !buildTaskPath! (	
-		@call start !buildTaskPath!		
+	@for /L %%i in (0,1,2) do (
+		@set buildTaskPath=!sourceCodeFolder!\!solutionFolder!\!builCodeTasks[%%i]!
+		
+		@if exist !buildTaskPath! (	
+			@call start !buildTaskPath!		
+		)	
 	)
 )	
 
