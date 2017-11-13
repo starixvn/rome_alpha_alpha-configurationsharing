@@ -5,9 +5,6 @@
 \\*.proi1.config
 \\*.sit.config
 \\*.uati1.config
-\\*.backupMNLExNap.config
-\\*.backupMNLI1.config
-\\*.backupMNLNap.config
 
 \\*.local2.config
 \\*.napexternal2.config
@@ -15,9 +12,7 @@
 \\*.pro2.config
 \\*.sit2.config
 \\*.uat2.config
-\\*.backupMNLExNap2.config
-\\*.backupMNL2.config
-\\*.backupMNLNap2.config
+
 
 \\*.exclude
 \\vwd.webinfo
