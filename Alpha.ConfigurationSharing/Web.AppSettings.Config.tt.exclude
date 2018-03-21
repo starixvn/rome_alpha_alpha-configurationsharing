@@ -22,12 +22,12 @@
   <add key="EnableLiveCasino" value="1" />
   <add key="EnableVirtualSports" value="1" />
   <add key="EnableKeno" value="1" />
-  <add key="EnableHRFixedOdds" value="1" />
+   
    
   <add key="EnableDoubleCommission" value="1" />
   <add key="EnableSessionValidatingService" value="0" />
   <add key="EnableMemberWinLimit" value="1" />
-  <add key="DisabledFI" value="1" />
+   
   <add key="IsShowTennisOtherBettype" value="1" />
   <add key="IsAllowUpdateESportsStatus" value="0" />
   <add key="IsShowGoldDeluxeSettingForCredit" value="1" />
