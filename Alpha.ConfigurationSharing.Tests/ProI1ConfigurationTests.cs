@@ -46,7 +46,7 @@
         [Test]
         public override void ValidateConnectionStrings_LoadedConnectionStrings_ReturnCorrectItemLength()
         {
-            base.ValidateConnectionStrings_LoadedConnectionStrings_ReturnCorrectItemLength();
+            base.ValidateConnectionStringsForSwitchingBetweenDB053AndDB054_LoadedConnectionStrings_ReturnCorrectItemLength();
         }
 
         [Test, TestCaseSource("ExpectedConnectionsStringsChild")]
