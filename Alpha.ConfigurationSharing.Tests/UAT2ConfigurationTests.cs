@@ -19,7 +19,7 @@
         {
             get
             {
-                return ExpectedConnectionsStrings;
+                return ExpectedConnectionsStringsUAT;
             }
         }
 
@@ -46,7 +46,7 @@
         [Test]
         public override void ValidateConnectionStrings_LoadedConnectionStrings_ReturnCorrectItemLength()
         {
-            base.ValidateConnectionStrings_LoadedConnectionStrings_ReturnCorrectItemLength();
+            base.ValidateConnectionStrings_LoadedConnectionStringsUAT_ReturnCorrectItemLength();
         }
 
         [Test, TestCaseSource("ExpectedConnectionsStringsChild")]

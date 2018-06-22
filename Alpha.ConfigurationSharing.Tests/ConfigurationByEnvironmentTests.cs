@@ -16,6 +16,35 @@
             }
         }
 
+        public static string[] ExpectedConnectionsStringsUAT
+        {
+            get
+            {
+                return new string[]
+                {
+                    "CS_BackupDB",
+                    "CS_ArchiveDB",
+                    "LiveCasinoAdmin",
+                    "IPEntities",
+                    "DBCust.IPDB.BODBDownlineNet",
+                    "DBCust.CustDB.BODBDownlineNet",
+                    "DBTXN.BODB02.BODBDownlineNet",
+                    "DBTXN.CustDB.BODBDownlineNet",
+                    "DBONUSER.ON_USER.BODBDownlineNet",
+                    "DBPOLICY.bodb02.BODBDownlineNet",
+                    "DBLOG.bodb_CustomerLog.BODBDownlineNet",
+                    "DBAGE.bodb_AGE.BODBDownlineNet",
+                    "DBAGE.bodb02.BODBDownlineNet",
+                    "DB054.bodb02.BODBDownlineNet",
+                    "DB042.bodb02.BODBDownlineNet",
+                    "DBARC.bodb_Archive.BODBDownlineNet",
+                    "DBACC.bodb02.BODBDownlineNet",
+                    "DBRPT.bodb_report.BODBDownlineNet",
+                    "DBMSG.bodb_Message.BODBDownlineNet"
+                };
+            }
+        }
+
         public static string[] ExpectedConnectionsStrings
         {
             get
@@ -82,6 +111,8 @@
 
         public int NumberOfConnectionsStrings { get; set; }
 
+        public int NumberOfConnectionsStringsUAT { get; set; }
+
         public int NumberOfConnectionsStringsForSwitchingBetweenDB053AndDB054 { get; set; }
 
         public string WebConfigRelativePath { get; set; }
@@ -94,6 +125,7 @@
         {
             NumberOfAppSettings = ExpectedAppSettings.Length;
             NumberOfConnectionsStrings = ExpectedConnectionsStrings.Length;
+            NumberOfConnectionsStringsUAT = ExpectedConnectionsStringsUAT.Length;
             NumberOfConnectionsStringsForSwitchingBetweenDB053AndDB054 = ConnectionsStringsForSwitchingBetweenDB053AndDB054.Length;
             AppSettingsAndConnectionStringConfiguration = LoadSetting(RelativeAppSettingsAndConnectionStringTestPath);
         }
@@ -111,6 +143,12 @@
 
             // Assert
             Assert.IsNotNull(setting);
+        }
+
+        public virtual void ValidateConnectionStrings_LoadedConnectionStringsUAT_ReturnCorrectItemLength()
+        {
+            // Assert
+            Assert.AreEqual(NumberOfConnectionsStringsUAT, AppSettingsAndConnectionStringConfiguration.ConnectionStrings.ConnectionStrings.Count);
         }
 
         public virtual void ValidateConnectionStrings_LoadedConnectionStrings_ReturnCorrectItemLength()
