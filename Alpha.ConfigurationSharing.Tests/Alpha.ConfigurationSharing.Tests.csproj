@@ -45,8 +45,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BackupMNLExNap2ConfigurationTests.cs" />
-    <Compile Include="BackupMNLExNapConfigurationTests.cs" />
     <Compile Include="BackupMNL2ConfigurationTests.cs" />
     <Compile Include="BackupMNLI1ConfigurationTests.cs" />
     <Compile Include="BackupMNLNap2ConfigurationTests.cs" />
@@ -54,12 +52,10 @@
     <Compile Include="ConfigurationLoader.cs" />
     <Compile Include="ConfigurationTests.cs" />
     <Compile Include="ConfigurationByEnvironmentTests.cs" />
-    <Compile Include="NapExternal2ConfigurationTests.cs" />
     <Compile Include="NapInternal2ConfigurationTests.cs" />
     <Compile Include="Pro2ConfigurationTests.cs" />
     <Compile Include="Real2ConfigurationTests.cs" />
     <Compile Include="RealConfigurationTests.cs" />
-    <Compile Include="NapExternalConfigurationTests.cs" />
     <Compile Include="NapInternalConfigurationTests.cs" />
     <Compile Include="ProI1ConfigurationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -100,10 +96,6 @@
       <Link>Web.AppSettings.automation.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\Alpha.ConfigurationSharing\Web.AppSettings.backupMNLExNap.config">
-      <Link>Web.AppSettings.backupMNLExNap.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="..\Alpha.ConfigurationSharing\Web.AppSettings.backupMNLNap.config">
       <Link>Web.AppSettings.backupMNLNap.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -112,10 +104,6 @@
       <Link>Web.AppSettings.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
-    </Content>
-    <Content Include="..\Alpha.ConfigurationSharing\Web.AppSettings.napexternal.config">
-      <Link>Web.AppSettings.napexternal.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="..\Alpha.ConfigurationSharing\Web.AppSettings.napinternal.config">
       <Link>Web.AppSettings.napinternal.config</Link>
@@ -133,10 +121,6 @@
       <Link>Web.AppSettings.uati1.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\Alpha.ConfigurationSharing\Web.backupMNLExNap.config">
-      <Link>Web.backupMNLExNap.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="..\Alpha.ConfigurationSharing\Web.backupMNLNap.config">
       <Link>Web.backupMNLNap.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -145,20 +129,12 @@
       <Link>Web.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.backupMNLExNap.config">
-      <Link>Web.ConnectionStrings.backupMNLExNap.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.backupMNLNap.config">
       <Link>Web.ConnectionStrings.backupMNLNap.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.config">
       <Link>Web.ConnectionStrings.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.napexternal.config">
-      <Link>Web.ConnectionStrings.napexternal.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.napinternal.config">
@@ -175,10 +151,6 @@
     </Content>
     <Content Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.uati1.config">
       <Link>Web.ConnectionStrings.uati1.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\Alpha.ConfigurationSharing\Web.napexternal.config">
-      <Link>Web.napexternal.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="..\Alpha.ConfigurationSharing\Web.napinternal.config">
@@ -206,21 +178,12 @@
       <Link>Web.AppSettings.backupMNL2.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="..\Alpha.ConfigurationSharing\Web.AppSettings.backupMNLExNap2.config">
-      <Link>Web.AppSettings.backupMNLExNap2.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <SubType>Designer</SubType>
-    </None>
     <None Include="..\Alpha.ConfigurationSharing\Web.AppSettings.backupMNLNap2.config">
       <Link>Web.AppSettings.backupMNLNap2.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="..\Alpha.ConfigurationSharing\Web.AppSettings.local2.config">
       <Link>Web.AppSettings.local2.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\Alpha.ConfigurationSharing\Web.AppSettings.napexternal2.config">
-      <Link>Web.AppSettings.napexternal2.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="..\Alpha.ConfigurationSharing\Web.AppSettings.napinternal2.config">
@@ -247,10 +210,6 @@
       <Link>Web.backupMNL2.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="..\Alpha.ConfigurationSharing\Web.backupMNLExNap2.config">
-      <Link>Web.backupMNLExNap2.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="..\Alpha.ConfigurationSharing\Web.backupMNLNap2.config">
       <Link>Web.backupMNLNap2.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -263,20 +222,12 @@
       <Link>Web.ConnectionStrings.backupMNL2.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.backupMNLExNap2.config">
-      <Link>Web.ConnectionStrings.backupMNLExNap2.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.backupMNLNap2.config">
       <Link>Web.ConnectionStrings.backupMNLNap2.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.local2.config">
       <Link>Web.ConnectionStrings.local2.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.napexternal2.config">
-      <Link>Web.ConnectionStrings.napexternal2.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.napinternal2.config">
@@ -297,10 +248,6 @@
     </None>
     <None Include="..\Alpha.ConfigurationSharing\Web.local2.config">
       <Link>Web.local2.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\Alpha.ConfigurationSharing\Web.napexternal2.config">
-      <Link>Web.napexternal2.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="..\Alpha.ConfigurationSharing\Web.napinternal2.config">
