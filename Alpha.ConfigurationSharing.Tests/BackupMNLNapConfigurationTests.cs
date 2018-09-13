@@ -46,6 +46,7 @@
         [TestCase("IPEntities")]
         [TestCase("DBCust.IPDB.BODBDownlineNet")]
         [TestCase("DBCust.CustDB.BODBDownlineNetView")]
+        [TestCase("DBCust.NAP_UserControl.BODBDownlineNetView")]
         [TestCase("DBTXN.BODB02.BODBDownlineNetView")]
         [TestCase("DBTXN.CustDB.BODBDownlineNetView")]
         [TestCase("DBONUSER.ON_USER.BODBDownlineNetView")]
