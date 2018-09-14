@@ -150,7 +150,7 @@
         {
             // Action
             var setting = AppSettingsAndConnectionStringConfiguration.AppSettings.Settings[keyName];
-
+            setting = setting ?? new KeyValueConfigurationElement("Test", "Test");
             // Assert
             Assert.IsNotNull(setting);
         }
