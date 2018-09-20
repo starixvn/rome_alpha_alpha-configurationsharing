@@ -41,7 +41,6 @@
   <add key="EnableProduct-24" value="1" />
   <add key="RemoteRefURL_Msg" value="" />
   <add key="RemoteRefURL" value="<#=site.RemoteRefURL#>" />
-  <add key="RemoteCacheUrl" value="<#=site.RemoteCacheUrl#>" />
   <add key="IsNeutralSite" value="0" />
   <add key="LocalTest" value="<#=site.LocalTest#>" />
   <add key="PiwikSiteId" value="<#=site.PiwikSiteId#>" />
