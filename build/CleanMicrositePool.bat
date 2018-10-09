@@ -4,7 +4,7 @@
 
 
 :: Configurations
-@set siteName=Alpha-Microsites4
+@set siteName=Alpha-Microsites6
 @set poolName=%siteName%
 
 :: Web Applications
@@ -21,6 +21,8 @@
 @set webApplications[9]=%appPrefix%-messages
 @set webApplications[10]=ex-totalbetsforecast
 @set webApplications[11]=%appPrefix%-reports
+@set webApplications[12]=%appPrefix%-accountinfo
+@set webApplications[13]=%appPrefix%-transfer
 
 
 @set appCMD=%systemroot%/system32/inetsrv/APPCMD
