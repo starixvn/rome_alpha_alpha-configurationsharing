@@ -13,30 +13,33 @@
 @set microSiteSources=%currentFolder%
 
 @set isCloneCode=0
-@set isBuildCode=1
-@set isArrangeIIS=0
+@set isBuildCode=0
+@set isArrangeIIS=1
 
 
 @REM Can use List=(value1 value2) but hard to get value by index: List[index]
 :: Source codes from gitlab
-@set sourceCodes[0]=git@gitlab.nexcel.vn:agency-i1/after-login-website.git
+@set sourceCodes[0]=git@gitlab.nexcel.vn:rome/alpha/after-login-website.git
 
-@set sourceCodes[1]=git@gitlab.nexcel.vn:fanex-alpha/alpha-configurationsharing.git
-@set sourceCodes[2]=git@gitlab.nexcel.vn:fanex-alpha/alpha-assets.git
+@set sourceCodes[1]=git@gitlab.nexcel.vn:rome/alpha/alpha-configurationsharing.git
+@set sourceCodes[2]=git@gitlab.nexcel.vn:rome/alpha/alpha-assets.git
 
-@set sourceCodes[3]=git@gitlab.nexcel.vn:fanex-alpha/alpha-results.git
-@set sourceCodes[4]=git@gitlab.nexcel.vn:fanex-alpha/alpha-howtouse.git
-@set sourceCodes[5]=git@gitlab.nexcel.vn:fanex-alpha/alpha-userguide.git
-@set sourceCodes[6]=git@gitlab.nexcel.vn:fanex-alpha/alpha-totalbetsforecast.git
-@set sourceCodes[7]=git@gitlab.nexcel.vn:fanex-alpha/alpha-extotalbetsforecast.git
+@set sourceCodes[3]=git@gitlab.nexcel.vn:rome/alpha/alpha-results.git
+@set sourceCodes[4]=git@gitlab.nexcel.vn:rome/alpha/alpha-howtouse.git
+@set sourceCodes[5]=git@gitlab.nexcel.vn:rome/alpha/alpha-userguide.git
+@set sourceCodes[6]=git@gitlab.nexcel.vn:rome/alpha/alpha-totalbetsforecast.git
+@set sourceCodes[7]=git@gitlab.nexcel.vn:rome/alpha/alpha-extotalbetsforecast.git
 
-@set sourceCodes[8]=git@gitlab.nexcel.vn:fanex-alpha/alpha-newmain.git
-@set sourceCodes[9]=git@gitlab.nexcel.vn:fanex-alpha/alpha-viewlogs.git
-@set sourceCodes[10]=git@gitlab.nexcel.vn:fanex-alpha/alpha-betlists.git
-@set sourceCodes[11]=git@gitlab.nexcel.vn:fanex-alpha/alpha-reports.git
-@set sourceCodes[12]=git@gitlab.nexcel.vn:fanex-alpha/alpha-memberinfo.git
-@set sourceCodes[13]=git@gitlab.nexcel.vn:fanex-alpha/alpha.messages.git
-@set sourceCodes[14]=git@gitlab.nexcel.vn:fanex-alpha/alpha-modules.git
+@set sourceCodes[8]=git@gitlab.nexcel.vn:rome/alpha/alpha-newmain.git
+@set sourceCodes[9]=git@gitlab.nexcel.vn:rome/alpha/alpha-viewlogs.git
+@set sourceCodes[10]=git@gitlab.nexcel.vn:rome/alpha/alpha-betlists.git
+@set sourceCodes[11]=git@gitlab.nexcel.vn:rome/alpha/alpha-reports.git
+@set sourceCodes[12]=git@gitlab.nexcel.vn:rome/alpha/alpha-memberinfo.git
+@set sourceCodes[13]=git@gitlab.nexcel.vn:rome/alpha/alpha.messages.git
+@set sourceCodes[14]=git@gitlab.nexcel.vn:rome/alpha/alpha-modules.git
+
+@set sourceCodes[15]=git@gitlab.nexcel.vn:rome/alpha/alpha-accountinfo.git
+@set sourceCodes[16]=git@gitlab.nexcel.vn:rome/alpha/alpha-transfer.git
 
 
 :: Folder contains solution file/build file
@@ -60,9 +63,11 @@
 @set solutionFolders[13]=alpha.messages
 
 @set solutionFolders[14]=alpha-modules
+@set solutionFolders[15]=alpha-accountinfo
+@set solutionFolders[16]=alpha-transfer
 
 
-@set siteName=Alpha-Microsites4
+@set siteName=Alpha-Microsites6
 @set port=9008
 
 :: Virtual Directories
@@ -83,6 +88,8 @@
 @set webApplications[9]=%appPrefix%-messages
 @set webApplications[10]=ex-totalbetsforecast
 @set webApplications[11]=%appPrefix%-reports
+@set webApplications[12]=%appPrefix%-accountinfo
+@set webApplications[13]=%appPrefix%-transfer
 
 @set webApplicationFolders[0]=alpha-newmain\Alpha.Main.Site\Alpha.Main.Site
 @set webApplicationFolders[1]=after-login-website\Fanex_Razorbill_Website
@@ -96,6 +103,8 @@
 @set webApplicationFolders[9]=alpha.messages\Alpha.Messages\Alpha.Messages.Site
 @set webApplicationFolders[10]=alpha-extotalbetsforecast\Alpha.Ex.TotalBetsForecast.Site
 @set webApplicationFolders[11]=alpha-reports\src\Alpha.Reports.Site
+@set webApplicationFolders[12]=alpha-accountinfo\src\Alpha.AccountInfo.Site
+@set webApplicationFolders[13]=alpha-transfer\src\Alpha.Transfer.Site
 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

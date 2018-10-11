@@ -128,6 +128,7 @@
     <Content Include="..\Alpha.ConfigurationSharing\Web.config">
       <Link>Web.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.backupMNLNap.config">
       <Link>Web.ConnectionStrings.backupMNLNap.config</Link>
@@ -136,6 +137,7 @@
     <Content Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.config">
       <Link>Web.ConnectionStrings.config</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="..\Alpha.ConfigurationSharing\Web.ConnectionStrings.napinternal.config">
       <Link>Web.ConnectionStrings.napinternal.config</Link>
