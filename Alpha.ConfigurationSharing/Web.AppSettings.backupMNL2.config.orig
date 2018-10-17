@@ -19,20 +19,28 @@
   <add key="IsShowMyanmarOdds" value="1" />
   <add key="IsShowSportsbook2" value="1" />
   <add key="IsShowColossusBets" value="1" />
+  <add key="EnableProduct-1" value="1" />
   <add key="EnableProduct-2" value="1" />
+  <add key="EnableProduct-3" value="1" />
+  <add key="EnableProduct-5" value="1" />
+  <add key="EnableProduct-6" value="1" />
+  <add key="EnableProduct-8" value="1" />
+  <add key="EnableProduct-12" value="1" />
+  <add key="EnableProduct-14" value="1" />
+  <add key="EnableProduct-15" value="1" />
+  <add key="EnableProduct-12" value="1" />
   <add key="EnableProduct-20" value="1" />
   <add key="EnableProduct-21" value="1" />
   <add key="EnableProduct-22" value="1" />
   <add key="EnableProduct-23" value="0" />
   <add key="EnableProduct-24" value="1" />
-  <add key="EnableProduct-5" value="1" />
   <add key="EnableProduct-28" value="1" />
   <add key="EnableProduct-26" value="1" />
   <add key="EnableProduct-30" value="1" />
   <add key="EnableProduct-33" value="1" />
   <add key="RemoteRefURL_Msg" value="" />
   <add key="RemoteRefURL" value="http://10.2.98.2:7258/" />
-  
+
   <add key="IsNeutralSite" value="0" />
   <add key="LocalTest" value="0" />
   <add key="PiwikUrl" value="//pw.detecas.com/piwik.php" />
@@ -54,6 +62,7 @@
   <add key="MessageAppPath" value="/site-messages" />
   <add key="AccountInfoAppPath" value="/site-accountinfo" />
   <add key="TransferAppPath" value="/site-transfer" />
+  <add key="CN88AppPath" value="/site-cn88" />
 
   <add key="EnableSecurityVerify" value="789y," />
   <add key="DeadlineEnableSecurity" value="01/01/2014" />
@@ -72,8 +81,15 @@
 
   <add key="ISPOSuperId" value="1533014" />
   <add key="SpecialSuperId" value="689422" />
+<<<<<<< HEAD
   <add key="ProductColumnNameMappings" value="5=virtualsports,20=cricket,21=allbet,22=voidbridge,28=lottery,26=lucky3,30=bullfighting"/>
   <add key="JsVersion" value="2019021401" />
+=======
+  <add key="ProductColumnNameMappings" value="5=virtualsports,20=cricket,21=allbet,22=voidbridge,28=lottery,26=lucky3,30=bullfighting" />
+  <add key="JsVersion" value="2018121302" />
+>>>>>>> 102153 - update product config
   <add key="IsCustomerDateLimitAffectInternal" value="0" />
   <add key="DisableMessages" value="0" />
+
+  <add key="ProductConfigsFileRelativePath" value="../ProductConfigs/ProductConfiguration.json" />
 </appSettings>
