@@ -15,21 +15,6 @@
 			}
 		},
 		{
-			"productId": 2,
-			"productName": "Racing",
-			"endSupportDate": "2018-2-2",
-			"accountInfoProperties": {
-				"setting": true,
-				"status": true,
-				"statusOnProductLevel": false
-			},
-			"reportProperties": {
-				"showInLegend": false,
-				"hasMatchInfo": true,
-				"offerPlayForFun": false
-			}
-		},
-		{
 			"productId": 3,
 			"productName": "Number Game",
 			"accountInfoProperties": {
@@ -55,20 +40,6 @@
 				"showInLegend": true,
 				"hasMatchInfo": false,
 				"offerPlayForFun": true
-			}
-		},
-		{
-			"productId": 4,
-			"productName": "Live Casino",
-			"accountInfoProperties": {
-				"setting": true,
-				"status": true,
-				"statusOnProductLevel": false
-			},
-			"reportProperties": {
-				"showInLegend": true,
-				"hasMatchInfo": false,
-				"offerPlayForFun": false
 			}
 		},
 		{
@@ -106,20 +77,6 @@
 				"setting": true,
 				"status": false,
 				"statusOnProductLevel": false
-			},
-			"reportProperties": {
-				"showInLegend": true,
-				"hasMatchInfo": false,
-				"offerPlayForFun": false
-			}
-		},
-		{
-			"productId": 15,
-			"productName": "Colossus Bet",
-			"accountInfoProperties": {
-				"setting": true,
-				"status": true,
-				"statusOnProductLevel": true
 			},
 			"reportProperties": {
 				"showInLegend": true,
@@ -193,20 +150,6 @@
 			}
 		},
 		{
-			"productId": 26,
-			"productName": "Lucky3",
-			"accountInfoProperties": {
-				"setting": true,
-				"status": true,
-				"statusOnProductLevel": true
-			},
-			"reportProperties": {
-				"showInLegend": true,
-				"hasMatchInfo": false,
-				"offerPlayForFun": false
-			}
-		},
-		{
 			"productId": 28,
 			"productName": "Lottery",
 			"accountInfoProperties": {
@@ -216,34 +159,6 @@
 			},
 			"reportProperties": {
 				"showInLegend": true,
-				"hasMatchInfo": false,
-				"offerPlayForFun": false
-			}
-		},
-		{
-			"productId": 30,
-			"productName": "Bullfighting",
-			"accountInfoProperties": {
-				"setting": true,
-				"status": true,
-				"statusOnProductLevel": true
-			},
-			"reportProperties": {
-				"showInLegend": true,
-				"hasMatchInfo": false,
-				"offerPlayForFun": false
-			}
-		},
-		{
-			"productId": 33,
-			"productName": "Poker Games",
-			"accountInfoProperties": {
-				"setting": true,
-				"status": true,
-				"statusOnProductLevel": false
-			},
-			"reportProperties": {
-				"showInLegend": false,
 				"hasMatchInfo": false,
 				"offerPlayForFun": false
 			}
