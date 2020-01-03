@@ -44,7 +44,8 @@
                     "DBARC.bodb_Archive.BODBDownlineNet",
                     "DBACC.bodb02.BODBDownlineNet",
                     "DBRPT.bodb_report.BODBDownlineNet",
-                    "DBMSG.bodb_Message.BODBDownlineNet"
+                    "DBMSG.bodb_Message.BODBDownlineNet",
+                    "DBAGE_STANDBY.bodb_AGE.BODBDownlineNet"
                 };
             }
         }
@@ -77,7 +78,8 @@
                     "DBARC.bodb_Archive.BODBDownlineNet",
                     "DBACC.bodb02.BODBDownlineNet",
                     "DBRPT.bodb_report.BODBDownlineNet",
-                    "DBMSG.bodb_Message.BODBDownlineNet"
+                    "DBMSG.bodb_Message.BODBDownlineNet",
+                    "DBAGE_STANDBY.bodb_AGE.BODBDownlineNet"
                 };
             }
         }
@@ -110,7 +112,8 @@
                     "DBARC.bodb_Archive.BODBDownlineNet",
                     "DBACC.bodb02.BODBDownlineNet",
                     "DBRPT.bodb_report.BODBDownlineNet",
-                    "DBMSG.bodb_Message.BODBDownlineNet"
+                    "DBMSG.bodb_Message.BODBDownlineNet",
+                    "DBAGE_STANDBY.bodb_AGE.BODBDownlineNet"
                 };
             }
         }
