@@ -33,7 +33,7 @@
       "productName": "Casino",
       "accountInfoProperties": {
         "setting": true,
-        "status": false,
+        "status": true,
         "statusOnProductLevel": true
       },
       "reportProperties": {
@@ -47,7 +47,7 @@
       "productName": "Virtual Sports",
       "accountInfoProperties": {
         "setting": true,
-        "status": false,
+        "status": true,
         "statusOnProductLevel": true
       },
       "reportProperties": {
@@ -61,7 +61,7 @@
       "productName": "Keno",
       "accountInfoProperties": {
         "setting": true,
-        "status": false,
+        "status": true,
         "statusOnProductLevel": false
       },
       "reportProperties": {
@@ -98,7 +98,7 @@
       "productName": "Allbet",
       "accountInfoProperties": {
         "setting": true,
-        "status": false,
+        "status": true,
         "statusOnProductLevel": false
       },
       "reportProperties": {
@@ -112,7 +112,7 @@
       "productName": "Macau Games",
       "accountInfoProperties": {
         "setting": true,
-        "status": false,
+        "status": true,
         "statusOnProductLevel": true
       },
       "reportProperties": {
@@ -126,7 +126,7 @@
       "productName": "NG2",
       "accountInfoProperties": {
         "setting": true,
-        "status": false,
+        "status": true,
         "statusOnProductLevel": true
       },
       "reportProperties": {
@@ -140,7 +140,7 @@
       "productName": "Fishing World",
       "accountInfoProperties": {
         "setting": true,
-        "status": false,
+        "status": true,
         "statusOnProductLevel": true
       },
       "reportProperties": {
@@ -154,7 +154,7 @@
       "productName": "Lottery",
       "accountInfoProperties": {
         "setting": true,
-        "status": false,
+        "status": true,
         "statusOnProductLevel": true
       },
       "reportProperties": {
