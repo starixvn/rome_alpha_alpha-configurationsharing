@@ -165,10 +165,10 @@
     },
     {
       "productId": 38,
-      "productName": "VirtualGames",
+      "productName": "Virtual Games",
       "accountInfoProperties": {
         "setting": true,
-        "status": true,
+        "status": false,
         "statusOnProductLevel": true
       },
       "reportProperties": {
