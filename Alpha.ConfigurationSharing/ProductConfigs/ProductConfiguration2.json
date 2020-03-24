@@ -176,6 +176,20 @@
         "hasMatchInfo": false,
         "offerPlayForFun": false
       }
+    },
+    {
+      "productId": 42,
+      "productName": "Saba.club",
+      "accountInfoProperties": {
+        "setting": true,
+        "status": false,
+        "statusOnProductLevel": true
+      },
+      "reportProperties": {
+        "showInLegend": true,
+        "hasMatchInfo": false,
+        "offerPlayForFun": false
+      }
     }
   ]
 }
