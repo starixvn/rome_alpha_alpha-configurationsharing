@@ -94,74 +94,74 @@
       }
     },
     {
-			"productId": 41,
-			"productName": "Live Casino",
-			"accountInfoProperties": {
-				"setting": true,
-				"status": true,
-				"statusOnProductLevel": false
-			},
-			"reportProperties": {
-				"showInLegend": true,
-				"hasMatchInfo": false,
-				"offerPlayForFun": false
-			}
-		},
-		{
-			"productId": 22,
-			"productName": "Macau Games",
-			"accountInfoProperties": {
-				"setting": true,
-				"status": true,
-				"statusOnProductLevel": true
-			},
-			"reportProperties": {
-				"showInLegend": true,
-				"hasMatchInfo": false,
-				"offerPlayForFun": false
-			}
-		},
-		{
-			"productId": 23,
-			"productName": "NG2",
-			"accountInfoProperties": {
-				"setting": true,
-				"status": true,
-				"statusOnProductLevel": true
-			},
-			"reportProperties": {
-				"showInLegend": true,
-				"hasMatchInfo": false,
-				"offerPlayForFun": false
-			}
-		},
-		{
-			"productId": 24,
-			"productName": "Fishing World",
-			"accountInfoProperties": {
-				"setting": true,
-				"status": true,
-				"statusOnProductLevel": true
-			},
-			"reportProperties": {
-				"showInLegend": true,
-				"hasMatchInfo": false,
-				"offerPlayForFun": false
-			}
-		},
-		{
-			"productId": 44,
-			"productName": "RNG Lottery",
-			"accountInfoProperties": {
-				"setting": true,
-				"status": true,
-				"statusOnProductLevel": true
-			},
-			"reportProperties": {
-				"showInLegend": true,
-				"hasMatchInfo": false,
-				"offerPlayForFun": false
-			}
+      "productId": 41,
+      "productName": "Live Casino",
+      "accountInfoProperties": {
+        "setting": true,
+        "status": true,
+        "statusOnProductLevel": false
+      },
+      "reportProperties": {
+        "showInLegend": true,
+        "hasMatchInfo": false,
+        "offerPlayForFun": false
+      }
+    },
+    {
+      "productId": 22,
+      "productName": "Macau Games",
+      "accountInfoProperties": {
+        "setting": true,
+        "status": true,
+        "statusOnProductLevel": true
+      },
+      "reportProperties": {
+        "showInLegend": true,
+        "hasMatchInfo": false,
+        "offerPlayForFun": false
+      }
+    },
+    {
+      "productId": 23,
+      "productName": "NG2",
+      "accountInfoProperties": {
+        "setting": true,
+        "status": true,
+        "statusOnProductLevel": true
+      },
+      "reportProperties": {
+        "showInLegend": true,
+        "hasMatchInfo": false,
+        "offerPlayForFun": false
+      }
+    },
+    {
+      "productId": 24,
+      "productName": "Fishing World",
+      "accountInfoProperties": {
+        "setting": true,
+        "status": true,
+        "statusOnProductLevel": true
+      },
+      "reportProperties": {
+        "showInLegend": true,
+        "hasMatchInfo": false,
+        "offerPlayForFun": false
+      }
+    },
+    {
+      "productId": 44,
+      "productName": "RNG Lottery",
+      "accountInfoProperties": {
+        "setting": true,
+        "status": true,
+        "statusOnProductLevel": false
+      },
+      "reportProperties": {
+        "showInLegend": true,
+        "hasMatchInfo": false,
+        "offerPlayForFun": false
+      }
     },
     {
       "productId": 38,
@@ -190,6 +190,6 @@
         "hasMatchInfo": false,
         "offerPlayForFun": false
       }
-		}
-	]
+    }
+  ]
 }
