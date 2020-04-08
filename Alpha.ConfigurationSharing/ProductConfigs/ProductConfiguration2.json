@@ -150,8 +150,8 @@
       }
     },
     {
-      "productId": 28,
-      "productName": "Lottery",
+      "productId": 44,
+      "productName": "RNG Lottery",
       "accountInfoProperties": {
         "setting": true,
         "status": false,
