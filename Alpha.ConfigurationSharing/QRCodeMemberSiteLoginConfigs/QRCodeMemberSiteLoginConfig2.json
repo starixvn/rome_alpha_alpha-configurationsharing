@@ -2,5 +2,5 @@
 	"API": "http://10.40.40.146",
 	"Domain": "https://m.viva88.com, https://m.viva88.net, https://m.sporty88.com, https://m.viva24x7.com",
 	"SiteId": 4120,
-	"ExpireSeconds": 86400
+	"ExpireSeconds": 900
 }
