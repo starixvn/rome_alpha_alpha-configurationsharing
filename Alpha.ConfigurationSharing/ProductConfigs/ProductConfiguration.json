@@ -190,6 +190,20 @@
         "hasMatchInfo": false,
         "offerPlayForFun": false
       }
+    },
+    {
+      "productId": 53,
+      "productName": "Saba Sports",
+      "accountInfoProperties": {
+        "setting": true,
+        "status": true,
+        "statusOnProductLevel": false
+      },
+      "reportProperties": {
+        "showInLegend": true,
+        "hasMatchInfo": false,
+        "offerPlayForFun": false
+      }
     }
   ]
 }
