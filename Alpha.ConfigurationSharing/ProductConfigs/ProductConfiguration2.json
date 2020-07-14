@@ -190,6 +190,20 @@
         "hasMatchInfo": false,
         "offerPlayForFun": false
       }
+    },
+    {
+      "productId": 54,
+      "productName": "Saba Virtual Sports",
+      "accountInfoProperties": {
+        "setting": false,
+        "status": false,
+        "statusOnProductLevel": true
+      },
+      "reportProperties": {
+        "showInLegend": true,
+        "hasMatchInfo": false,
+        "offerPlayForFun": false
+      }
     }
   ]
 }
