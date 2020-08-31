@@ -1,4 +1,4 @@
-
+*.orig
 /.vs
 /*/bin
 /*/obj
