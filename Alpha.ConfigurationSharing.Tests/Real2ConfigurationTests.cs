@@ -53,7 +53,6 @@
         [TestCase("DBLOG.bodb_CustomerLog.BODBDownlineNet")]
         [TestCase("DBAGE.bodb_AGE.BODBDownlineNet")]
         [TestCase("DBAGE.bodb02.BODBDownlineNet")]
-        [TestCase("DB054.bodb02.BODBDownlineNet")]
         [TestCase("DBARC.bodb_Archive.BODBDownlineNet")]
         [TestCase("DBACC.bodb02.BODBDownlineNet")]
         [TestCase("DBRPT.bodb_report.BODBDownlineNet")]
