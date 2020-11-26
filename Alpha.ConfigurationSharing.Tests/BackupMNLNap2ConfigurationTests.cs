@@ -32,13 +32,7 @@
         public override void ValidateAppSettings_SupportKeyName_ReturnData(string keyName)
         {
             base.ValidateAppSettings_SupportKeyName_ReturnData(keyName);
-        }
-
-        [Test]
-        public override void ValidateConnectionStrings_LoadedConnectionStrings_ReturnCorrectItemLength()
-        {
-            base.ValidateConnectionStringsForSwitchingBetweenDB053AndDB054_LoadedConnectionStrings_ReturnCorrectItemLength();
-        }
+        }       
 
         [TestCase("CS_BackupDB")]
         [TestCase("CS_ArchiveDB")]
@@ -52,8 +46,7 @@
         [TestCase("DBPOLICY.bodb02.BODBDownlineNetView")]
         [TestCase("DBLOG.bodb_CustomerLog.BODBDownlineNetView")]
         [TestCase("DBAGE.bodb_AGE.BODBDownlineNetView")]
-        [TestCase("DBAGE.bodb02.BODBDownlineNetView")]
-        [TestCase("DB054.bodb02.BODBDownlineNetView")]
+        [TestCase("DBAGE.bodb02.BODBDownlineNetView")]       
         [TestCase("DBARC.bodb_Archive.BODBDownlineNetView")]
         [TestCase("DBACC.bodb02.BODBDownlineNetView")]
         [TestCase("DBRPT.bodb_report.BODBDownlineNetView")]

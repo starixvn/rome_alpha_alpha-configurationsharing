@@ -43,12 +43,6 @@
             base.ValidateAppSettings_SupportKeyName_ReturnData(keyName);
         }
 
-        [Test]
-        public override void ValidateConnectionStrings_LoadedConnectionStrings_ReturnCorrectItemLength()
-        {
-            base.ValidateConnectionStringsForSwitchingBetweenDB053AndDB054_LoadedConnectionStrings_ReturnCorrectItemLength();
-        }
-
         [Test, TestCaseSource("ExpectedConnectionsStringsChild")]
         public override void ValidateConnectionStrings_SupportConnectionName_ReturnData(string connectionName)
         {
