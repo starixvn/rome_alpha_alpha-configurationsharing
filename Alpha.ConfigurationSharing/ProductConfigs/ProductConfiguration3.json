@@ -74,7 +74,7 @@
       "productId": 12,
       "productName": "Gold Deluxe",
       "accountInfoProperties": {
-        "setting": true,
+        "setting": false,
         "status": false,
         "statusOnProductLevel": false
       },
