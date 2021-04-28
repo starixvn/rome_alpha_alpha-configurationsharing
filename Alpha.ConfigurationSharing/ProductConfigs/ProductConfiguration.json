@@ -204,6 +204,20 @@
         "hasMatchInfo": false,
         "offerPlayForFun": false
       }
+    },
+    {
+      "productId": 66,
+      "productName": "VGaming",
+      "accountInfoProperties": {
+        "setting": true,
+        "status": true,
+        "statusOnProductLevel": false
+      },
+      "reportProperties": {
+        "showInLegend": true,
+        "hasMatchInfo": false,
+        "offerPlayForFun": false
+      }
     }
   ]
 }
