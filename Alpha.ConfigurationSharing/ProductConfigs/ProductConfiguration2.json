@@ -218,6 +218,20 @@
         "hasMatchInfo": false,
         "offerPlayForFun": false
       }
+    },
+    {
+      "productId": 69,
+      "productName": "Bitcoin",
+      "accountInfoProperties": {
+        "setting": true,
+        "status": true,
+        "statusOnProductLevel": true
+      },
+      "reportProperties": {
+        "showInLegend": true,
+        "hasMatchInfo": false,
+        "offerPlayForFun": false
+      }
     }
   ]
 }
