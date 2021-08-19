@@ -196,7 +196,7 @@
       "productName": "Saba Virtual Sports",
       "accountInfoProperties": {
         "setting": false,
-        "status": false,
+        "status": true,
         "statusOnProductLevel": true
       },
       "reportProperties": {
