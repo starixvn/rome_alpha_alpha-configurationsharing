@@ -224,7 +224,7 @@
       "productName": "Bitcoin",
       "accountInfoProperties": {
         "setting": true,
-        "status": true,
+        "status": false,
         "statusOnProductLevel": true
       },
       "reportProperties": {
