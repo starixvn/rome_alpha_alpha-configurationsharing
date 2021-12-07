@@ -232,6 +232,20 @@
         "hasMatchInfo": false,
         "offerPlayForFun": false
       }
+    },
+    {
+      "productId": 25,
+      "productName": "Cash Out",
+      "accountInfoProperties": {
+        "setting": true,
+        "status": true,
+        "statusOnProductLevel": true
+      },
+      "reportProperties": {
+        "showInLegend": true,
+        "hasMatchInfo": false,
+        "offerPlayForFun": false
+      }
     }
   ]
 }
