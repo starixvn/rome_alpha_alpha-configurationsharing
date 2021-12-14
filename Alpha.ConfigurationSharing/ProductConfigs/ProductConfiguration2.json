@@ -237,12 +237,12 @@
       "productId": 25,
       "productName": "Cash Out",
       "accountInfoProperties": {
-        "setting": true,
+        "setting": false,
         "status": true,
         "statusOnProductLevel": true
       },
       "reportProperties": {
-        "showInLegend": true,
+        "showInLegend": false,
         "hasMatchInfo": false,
         "offerPlayForFun": false
       }
