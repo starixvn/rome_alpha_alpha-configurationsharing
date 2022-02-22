@@ -113,7 +113,7 @@
       "accountInfoProperties": {
         "setting": true,
         "status": false,
-        "statusOnProductLevel": true
+        "statusOnProductLevel": false
       },
       "reportProperties": {
         "showInLegend": true,
