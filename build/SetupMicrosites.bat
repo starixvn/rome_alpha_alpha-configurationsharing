@@ -12,34 +12,34 @@
 @set currentFolder=%cd%
 @set microSiteSources=%currentFolder%
 
-@set isCloneCode=0
+@set isCloneCode=1
 @set isBuildCode=0
 @set isArrangeIIS=1
 
 
 @REM Can use List=(value1 value2) but hard to get value by index: List[index]
 :: Source codes from gitlab
-@set sourceCodes[0]=git@gitlab.nexcel.vn:rome/alpha/after-login-website.git
+@set sourceCodes[0]=git@gitlab.nexdev.net:rome/alpha/after-login-website.git
 
-@set sourceCodes[1]=git@gitlab.nexcel.vn:rome/alpha/alpha-configurationsharing.git
-@set sourceCodes[2]=git@gitlab.nexcel.vn:rome/alpha/alpha-assets.git
+@set sourceCodes[1]=git@gitlab.nexdev.net:rome/alpha/alpha-configurationsharing.git
+@set sourceCodes[2]=git@gitlab.nexdev.net:rome/alpha/alpha-assets.git
 
-@set sourceCodes[3]=git@gitlab.nexcel.vn:rome/alpha/alpha-results.git
-@set sourceCodes[4]=git@gitlab.nexcel.vn:rome/alpha/alpha-howtouse.git
-@set sourceCodes[5]=git@gitlab.nexcel.vn:rome/alpha/alpha-userguide.git
-@set sourceCodes[6]=git@gitlab.nexcel.vn:rome/alpha/alpha-totalbetsforecast.git
-@set sourceCodes[7]=git@gitlab.nexcel.vn:rome/alpha/alpha-extotalbetsforecast.git
+@set sourceCodes[3]=git@gitlab.nexdev.net:rome/alpha/alpha-results.git
+@set sourceCodes[4]=git@gitlab.nexdev.net:rome/alpha/alpha-howtouse.git
+@set sourceCodes[5]=git@gitlab.nexdev.net:rome/alpha/alpha-userguide.git
+@set sourceCodes[6]=git@gitlab.nexdev.net:rome/alpha/alpha-totalbetsforecast.git
+@set sourceCodes[7]=git@gitlab.nexdev.net:rome/alpha/alpha-extotalbetsforecast.git
 
-@set sourceCodes[8]=git@gitlab.nexcel.vn:rome/alpha/alpha-newmain.git
-@set sourceCodes[9]=git@gitlab.nexcel.vn:rome/alpha/alpha-viewlogs.git
-@set sourceCodes[10]=git@gitlab.nexcel.vn:rome/alpha/alpha-betlists.git
-@set sourceCodes[11]=git@gitlab.nexcel.vn:rome/alpha/alpha-reports.git
-@set sourceCodes[12]=git@gitlab.nexcel.vn:rome/alpha/alpha-memberinfo.git
-@set sourceCodes[13]=git@gitlab.nexcel.vn:rome/alpha/alpha.messages.git
-@set sourceCodes[14]=git@gitlab.nexcel.vn:rome/alpha/alpha-modules.git
+@set sourceCodes[8]=git@gitlab.nexdev.net:rome/alpha/alpha-newmain.git
+@set sourceCodes[9]=git@gitlab.nexdev.net:rome/alpha/alpha-viewlogs.git
+@set sourceCodes[10]=git@gitlab.nexdev.net:rome/alpha/alpha-betlists.git
+@set sourceCodes[11]=git@gitlab.nexdev.net:rome/alpha/alpha-reports.git
+@set sourceCodes[12]=git@gitlab.nexdev.net:rome/alpha/alpha-memberinfo.git
+@set sourceCodes[13]=git@gitlab.nexdev.net:rome/alpha/alpha.messages.git
+@set sourceCodes[14]=git@gitlab.nexdev.net:rome/alpha/alpha-modules.git
 
-@set sourceCodes[15]=git@gitlab.nexcel.vn:rome/alpha/alpha-accountinfo.git
-@set sourceCodes[16]=git@gitlab.nexcel.vn:rome/alpha/alpha-transfer.git
+@set sourceCodes[15]=git@gitlab.nexdev.net:rome/alpha/alpha-accountinfo.git
+@set sourceCodes[16]=git@gitlab.nexdev.net:rome/alpha/alpha-transfer.git
 
 
 :: Folder contains solution file/build file
@@ -109,7 +109,7 @@
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-@set PATH=%PATH%;C:\Program Files (x86)\Git\bin
+@set PATH=%PATH%;C:\Program Files\Git\bin
 
 
 @echo off
