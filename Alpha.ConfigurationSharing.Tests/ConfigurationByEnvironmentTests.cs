@@ -42,7 +42,8 @@
                     "DBRPT.bodb_report.BODBDownlineNet",
                     "DBMSG.bodb_Message.BODBDownlineNet",
                     "DBAGE_STANDBY.bodb_AGE.BODBDownlineNet",
-                    "DBOST.bodb_ost.BODBDownlineNet"
+                    "DBOST.bodb_ost.BODBDownlineNet",
+                    "DBBAH.bodb02.BODBDownlineNet"
                 };
             }
         }
@@ -73,7 +74,8 @@
                     "DBRPT.bodb_report.BODBDownlineNet",
                     "DBMSG.bodb_Message.BODBDownlineNet",
                     "DBAGE_STANDBY.bodb_AGE.BODBDownlineNet",
-                    "DBOST.bodb_ost.BODBDownlineNet"
+                    "DBOST.bodb_ost.BODBDownlineNet",
+                    "DBBAH.bodb02.BODBDownlineNet"
                 };
             }
         }      
