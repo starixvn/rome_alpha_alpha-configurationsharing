@@ -11,22 +11,6 @@
         },
         new SiteInfo
         {
-            Environment = SiteEnvironment.backupMNLExNap
-        },
-        new SiteInfo
-        {
-            Environment = SiteEnvironment.backupMNLI1
-        },
-        new SiteInfo
-        {
-            Environment = SiteEnvironment.backupMNLI7
-        },
-        new SiteInfo
-        {
-            Environment = SiteEnvironment.backupMNLNap
-        },
-        new SiteInfo
-        {
             Environment = SiteEnvironment.local
         },
         new SiteInfo
@@ -64,10 +48,6 @@
     {
         none,
         automation,
-        backupMNLExNap,
-        backupMNLI1,
-        backupMNLI7,
-        backupMNLNap,
         local,
         napexternal,
         napinternal,
@@ -92,14 +72,6 @@
                         return "tcp://10.70.70.242:8888/CallGetRefFunction";
                     case SiteEnvironment.automation:
                         return "tcp://10.70.70.242:8888/CallGetRefFunction";
-                    case SiteEnvironment.backupMNLExNap:
-                        return "tcp://10.40.40.130:8098/CallGetRefFunction";
-                    case SiteEnvironment.backupMNLI1:
-                        return "tcp://10.40.40.130:8098/CallGetRefFunction";
-                    case SiteEnvironment.backupMNLI7:
-                        return "tcp://10.40.40.130:8098/CallGetRefFunction";
-                    case SiteEnvironment.backupMNLNap:
-                        return "tcp://10.40.40.130:8098/CallGetRefFunction";
                     case SiteEnvironment.local:
                         return "tcp://10.70.70.242:8888/CallGetRefFunction";
                     case SiteEnvironment.napexternal:
@@ -132,14 +104,6 @@
                         return "tcp://10.70.70.242:8888/CallGetOddsFunction";
                     case SiteEnvironment.automation:
                         return "tcp://10.70.70.242:8888/CallGetOddsFunction";
-                    case SiteEnvironment.backupMNLExNap:
-                        return "tcp://10.40.40.130:8098/CallGetOddsFunction";
-                    case SiteEnvironment.backupMNLI1:
-                        return "tcp://10.40.40.130:8098/CallGetOddsFunction";
-                    case SiteEnvironment.backupMNLI7:
-                        return "tcp://10.40.40.130:8098/CallGetOddsFunction";
-                    case SiteEnvironment.backupMNLNap:
-                        return "tcp://10.40.40.130:8098/CallGetOddsFunction";
                     case SiteEnvironment.local:
                         return "tcp://10.70.70.242:8888/CallGetOddsFunction";
                     case SiteEnvironment.napexternal:
@@ -172,14 +136,6 @@
                         return "1";
                     case SiteEnvironment.automation:
                         return "1";
-                    case SiteEnvironment.backupMNLExNap:
-                        return "0";
-                    case SiteEnvironment.backupMNLI1:
-                        return "0";
-                    case SiteEnvironment.backupMNLI7:
-                        return "0";
-                    case SiteEnvironment.backupMNLNap:
-                        return "0";
                     case SiteEnvironment.local:
                         return "0";
                     case SiteEnvironment.napexternal:
@@ -212,14 +168,6 @@
                         return "";
                     case SiteEnvironment.automation:
                         return "29";
-                    case SiteEnvironment.backupMNLExNap:
-                        return "";
-                    case SiteEnvironment.backupMNLI1:
-                        return "29";
-                    case SiteEnvironment.backupMNLI7:
-                        return "30";
-                    case SiteEnvironment.backupMNLNapInternal:
-                        return "";
                     case SiteEnvironment.local:
                         return "";
                     case SiteEnvironment.napexternal:
@@ -252,14 +200,6 @@
                         return "AlphaSiteName";
                     case SiteEnvironment.automation:
                         return "AlphaSiteName";
-                    case SiteEnvironment.backupMNLExNap:
-                        return "AlphaSite_NAP_EXTERNAL";
-                    case SiteEnvironment.backupMNLI1:
-                        return "AlphaSite_PRO_I1";
-                    case SiteEnvironment.backupMNLI7:
-                        return "AlphaSite_PRO_I7";
-                    case SiteEnvironment.backupMNLNap:
-                        return "AlphaSite_NAP_INTERNAL";
                     case SiteEnvironment.local:
                         return "AlphaSiteName";
                     case SiteEnvironment.napexternal:
