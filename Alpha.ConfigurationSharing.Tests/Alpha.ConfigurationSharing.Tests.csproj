@@ -64,30 +64,6 @@
     <Compile Include="UATI1ConfigurationTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AppSettingsAndConnectionStringTest.backupMNL.config">
-      <DependentUpon>AppSettingsAndConnectionStringTest.config</DependentUpon>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="AppSettingsAndConnectionStringTest.backupMNL2.config">
-      <DependentUpon>AppSettingsAndConnectionStringTest.config</DependentUpon>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="AppSettingsAndConnectionStringTest.backupMNLExNap.config">
-      <DependentUpon>AppSettingsAndConnectionStringTest.config</DependentUpon>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="AppSettingsAndConnectionStringTest.backupMNLExNap2.config">
-      <DependentUpon>AppSettingsAndConnectionStringTest.config</DependentUpon>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="AppSettingsAndConnectionStringTest.backupMNLNap.config">
-      <DependentUpon>AppSettingsAndConnectionStringTest.config</DependentUpon>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="AppSettingsAndConnectionStringTest.backupMNLNap2.config">
-      <DependentUpon>AppSettingsAndConnectionStringTest.config</DependentUpon>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="AppSettingsAndConnectionStringTest.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
