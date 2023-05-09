@@ -14,14 +14,10 @@
 <appSettings>
   <add key="webpages:Version" value="3.0.0.0" />
   <add key="vs:EnableBrowserLink" value="false" />
-  <add key="EnableNumberGroup" value="1" />
   <add key="Disabled_NumberGame" value="0" />
-  <add key="Disabled_NumberCommission" value="0" />
-  <add key="Disabled_NumberGameStatus" value="1" />
    
   <add key="EnableLiveCasino" value="1" />
   <add key="EnableVirtualSports" value="1" />
-  <add key="EnableKeno" value="1" />
    
    
   <add key="EnableDoubleCommission" value="1" />
