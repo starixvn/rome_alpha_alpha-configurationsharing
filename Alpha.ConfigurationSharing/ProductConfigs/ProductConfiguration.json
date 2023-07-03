@@ -94,20 +94,6 @@
       }
     },
     {
-      "productId": 23,
-      "productName": "NG2",
-      "accountInfoProperties": {
-        "setting": true,
-        "status": true,
-        "statusOnProductLevel": true
-      },
-      "reportProperties": {
-        "showInLegend": true,
-        "hasMatchInfo": false,
-        "offerPlayForFun": false
-      }
-    },
-    {
       "productId": 24,
       "productName": "Fishing World",
       "accountInfoProperties": {
