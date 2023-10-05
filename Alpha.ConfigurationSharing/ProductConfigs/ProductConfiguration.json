@@ -43,20 +43,6 @@
       }
     },
     {
-      "productId": 12,
-      "productName": "Gold Deluxe",
-      "accountInfoProperties": {
-        "setting": false,
-        "status": false,
-        "statusOnProductLevel": false
-      },
-      "reportProperties": {
-        "showInLegend": true,
-        "hasMatchInfo": false,
-        "offerPlayForFun": false
-      }
-    },
-    {
       "productId": 16,
       "productName": "Sportsbook 2",
       "accountInfoProperties": {
@@ -86,20 +72,6 @@
         "setting": true,
         "status": true,
         "statusOnProductLevel": false
-      },
-      "reportProperties": {
-        "showInLegend": true,
-        "hasMatchInfo": false,
-        "offerPlayForFun": false
-      }
-    },
-    {
-      "productId": 24,
-      "productName": "Fishing World",
-      "accountInfoProperties": {
-        "setting": true,
-        "status": true,
-        "statusOnProductLevel": true
       },
       "reportProperties": {
         "showInLegend": true,

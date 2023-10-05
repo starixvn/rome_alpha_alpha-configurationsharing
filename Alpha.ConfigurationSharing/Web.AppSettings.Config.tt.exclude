@@ -26,15 +26,13 @@
    
   <add key="IsShowTennisOtherBettype" value="1" />
   <add key="IsAllowUpdateESportsStatus" value="0" />
-  <add key="IsShowGoldDeluxeSettingForCredit" value="1" />
+  
   <add key="IsShowMyanmarOdds" value="1" />
   <add key="IsShowSportsbook2" value="1" />
-  <add key="IsShowColossusBets" value="1" />
   <add key="EnableProduct-2" value="1" /> 
   <add key="EnableProduct-20" value="1" />
   <add key="EnableProduct-21" value="1" />
   <add key="EnableProduct-53" value="1" />
-  <add key="EnableProduct-24" value="1" />
   <add key="RemoteRefURL_Msg" value="" />
   <add key="RemoteRefURL" value="<#=site.RemoteRefURL#>" />
   <add key="IsNeutralSite" value="0" />
