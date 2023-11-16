@@ -43,15 +43,6 @@
       }
     },
     {
-      "productId": 16,
-      "productName": "Sportsbook 2",
-      "accountInfoProperties": {
-        "setting": true,
-        "status": false,
-        "statusOnProductLevel": false
-      }
-    },
-    {
       "productId": 41,
       "productName": "Live Casino",
       "accountInfoProperties": {
