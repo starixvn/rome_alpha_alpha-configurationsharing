@@ -2,7 +2,7 @@
   "products": [
     {
       "productId": 1,
-      "productName": "Sportsbook1",
+      "productName": "Sportsbook",
       "accountInfoProperties": {
         "setting": true,
         "status": false,
@@ -40,15 +40,6 @@
         "showInLegend": true,
         "hasMatchInfo": true,
         "offerPlayForFun": false
-      }
-    },
-    {
-      "productId": 16,
-      "productName": "Sportsbook 2",
-      "accountInfoProperties": {
-        "setting": true,
-        "status": false,
-        "statusOnProductLevel": false
       }
     },
     {
